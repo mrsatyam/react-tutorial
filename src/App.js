@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header> </Header>
+      <Header title="Task Tracker" > </Header>
       <h1> Hello From React</h1>
       <h2>Hello {name} </h2>
       <h3> {2+2}</h3>
