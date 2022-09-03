@@ -1,9 +1,9 @@
-const Header = (props) => {
+const Header = ({title, devName}) => {
   return (
     <header>
         <div>
-            <h1>{props.title} </h1>
-            <div> ------------------ designed by {props.devName}</div>
+            <h1>{title} </h1>
+            <div> ------------------ designed by {devName}</div>
         </div>
     </header>
   );
