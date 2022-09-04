@@ -6,10 +6,15 @@ const Header = ({title, devName}) => {
     <header className='header' style={headerStyling}>
         <h1> {title} </h1>
         <br></br><br></br> ------------------ designed by {devName}
-        <Button color='green' text="Add"></Button>
+        <Button color='green' text="Add" onClick={onClick}></Button>
     </header>
   );
 }
+
+const onClick= (e)=>{
+    console.log("clicked")
+}
+
 
 Header.defaultProps={
     title: 'Default'
